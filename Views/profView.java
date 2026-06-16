@@ -35,4 +35,14 @@ public void ajouterProf(){
         System.out.println("Prof ajouté avec succès !");
 
 }
+
+public void afficherProfs() {
+    System.out.println("--- Liste des Professeurs ---");
+
+    if (service.nbProfs == 0) {
+        System.out.println("Aucun professeur enregistré.");
+    } else {
+        service.listerProfs();
+    }
+}
 }
