@@ -8,5 +8,14 @@ public class etudiantService {
     public void ajouter(Etudiant e) {
         etudiants[nbEtudiants] = e;
         nbEtudiants++;
+ 
+    }
+
+    public void listerEtudiants() {
+    for (int i = 0; i < nbEtudiants; i++) {
+        etudiants[i].afficherInfo();
+        System.out.println("------------------");
     }
 }
+}
+

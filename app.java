@@ -30,6 +30,9 @@ public class app {
             if (choix == 3) {
                 pView.afficherProfs();
             }
+            if (choix == 4) {
+                eView.afficherEtudiants();
+            }
 
         } while (choix != 6);
 
