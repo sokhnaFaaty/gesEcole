@@ -23,7 +23,7 @@ public class personneView {
     if (eView.service.nbEtudiants == 0) {
         System.out.println("Aucun étudiant enregistré.");
     } else {
-        eView.service.listerEtudiants();
+        eView.service.lister();
     }
 }
 }

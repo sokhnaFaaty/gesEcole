@@ -1,6 +1,6 @@
 package GesEcole;
 
-import Views.profView;
+import GesEcole.Views.profView;
 import java.util.Scanner;
 
 import GesEcole.Views.etudiantView;
@@ -13,6 +13,8 @@ public class app {
         etudiantView eView = new etudiantView();
         personneView allView = new personneView(pView, eView);
         Scanner sc = new Scanner(System.in);
+        sc.nextLine(); // vider le buffer !
+
         int choix;
 
         do {
@@ -33,7 +35,7 @@ public class app {
                 pView.afficherProfs();
             }
             if (choix == 4) {
-                pView.afficherEtudiants();
+                eView.afficherEtudiants();
             }
             if (choix == 5) {
                 allView.listerTous();

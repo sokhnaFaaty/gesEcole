@@ -1,8 +1,8 @@
 package GesEcole.Views;
 
 
-import Entity.Etudiant;
-import Services.etudiantService;
+import Gestion.Entity.Etudiant;
+import Gestion.Services.etudiantService;
 import java.util.Scanner;
 
 public class etudiantView {
@@ -31,6 +31,16 @@ public class etudiantView {
         service.ajouter(e);
 
         System.out.println("Etudiant ajouté avec succès !");
+    }
+    
+      public void afficherEtudiants() {
+        System.out.println("--- Liste des Etudiants ---");
+
+        if (service.nbEtudiants == 0) {
+            System.out.println("Aucun étudiant enregistré.");
+        } else {
+            service.lister();
+        }
     }
 
 }

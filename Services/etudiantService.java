@@ -1,5 +1,6 @@
 package GesEcole.Services;
-import Gestion.Entity.Etudiant;
+import GestEcole.Entity.Etudiant;
+
 public class etudiantService {
    public Etudiant[] etudiants = new Etudiant[100];
    public int nbEtudiants = 0;

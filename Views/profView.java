@@ -1,6 +1,6 @@
 package GesEcole.Views;
-import Entity.Prof;
-import Services.profService;
+import GesEcole.Entity.Prof;
+import GesEcole.Services.profService;
 import java.util.Scanner;
  
 public class profView {
