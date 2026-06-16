@@ -5,7 +5,7 @@ import java.util.Scanner;
  
 public class profView {
 profService service =new profService();
-Scanner sc=new Scanner(system.in);
+Scanner sc=new Scanner(System.in);
 
 //methode pour a=saisir et ajouter un prof 
 public void ajouterProf(){
