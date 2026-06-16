@@ -33,4 +33,13 @@ public class etudiantView {
         System.out.println("Etudiant ajouté avec succès !");
     }
 
+    public void afficherEtudiants() {
+    System.out.println("--- Liste des Etudiants ---");
+
+    if (service.nbEtudiants == 0) {
+        System.out.println("Aucun étudiant enregistré.");
+    } else {
+        service.listerEtudiants();
+    }
+}
 }

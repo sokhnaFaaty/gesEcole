@@ -33,10 +33,7 @@ public class app {
                 pView.afficherProfs();
             }
             if (choix == 4) {
-                pView.afficherEtudiants();
-            }
-            if (choix == 5) {
-                allView.listerTous();
+                eView.afficherEtudiants();
             }
 
         } while (choix != 6);
