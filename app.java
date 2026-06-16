@@ -3,10 +3,13 @@ package GesEcole;
 import Views.profView;
 import java.util.Scanner;
 
+import GesEcole.Views.etudiantView;
+
 public class app {
     public static void main(String[] args) {
 
         profView pView = new profView();
+        etudiantView eView = new etudiantView();
         Scanner sc = new Scanner(System.in);
         int choix;
 
@@ -19,6 +22,9 @@ public class app {
 
             if (choix == 1) {
                 pView.ajouterProf();
+            }
+            if (choix == 2) {
+                eView.ajouterEtudiant();
             }
 
             if (choix == 3) {
