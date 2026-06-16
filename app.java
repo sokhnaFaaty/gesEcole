@@ -1,11 +1,10 @@
 package GesEcole;
-
-import Views.profView;
 import java.util.Scanner;
 
+import Gestions.Views.profView;
+import GesEcole.Views.profView;
 import GesEcole.Views.etudiantView;
 import GesEcole.Views.personneView;
-
 public class app {
     public static void main(String[] args) {
 

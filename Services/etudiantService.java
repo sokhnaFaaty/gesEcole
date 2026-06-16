@@ -1,8 +1,9 @@
 package GesEcole.Services;
-import Entity.Etudiant;
+import GesEcole.Entity.Etudiant;
+
 public class etudiantService {
     Etudiant[] etudiants = new Etudiant[100];
-    int nbEtudiants = 0;
+    public int nbEtudiants = 0;
 
     // Méthode pour ajouter un étudiant
     public void ajouter(Etudiant e) {

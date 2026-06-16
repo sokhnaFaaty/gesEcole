@@ -1,8 +1,8 @@
 package GesEcole.Views;
 
 
-import Entity.Etudiant;
-import Services.etudiantService;
+import GesEcole.Entity.Etudiant;
+import GesEcole.Services.etudiantService;
 import java.util.Scanner;
 
 public class etudiantView {

@@ -1,5 +1,8 @@
 package GesEcole.Views;
 
+import GesEcole.Views.profView;
+import GesEcole.Views.etudiantView;
+
 public class personneView {
     profView pView;
     etudiantView eView;
