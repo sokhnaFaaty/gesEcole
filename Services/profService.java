@@ -1,7 +1,7 @@
 package GesEcole.Services;
 import GesEcole.Entity.Prof;
 public class profService {
-    Prof[] profs=new Prof[100];
+    public Prof[] profs=new Prof[100];
     public int nbProfs=0;
     
     public void ajouter(Prof p){

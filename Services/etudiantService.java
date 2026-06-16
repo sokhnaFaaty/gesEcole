@@ -10,4 +10,10 @@ public class etudiantService {
         nbEtudiants++;
     }
      
+      public void lister() {
+        for (int i = 0; i < nbEtudiants; i++) {
+            etudiants[i].afficherInfo();
+            System.out.println("------------------");
+        }
+    }
 }
