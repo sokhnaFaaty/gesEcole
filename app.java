@@ -4,12 +4,14 @@ import Views.profView;
 import java.util.Scanner;
 
 import GesEcole.Views.etudiantView;
+import GesEcole.Views.personneView;
 
 public class app {
     public static void main(String[] args) {
 
         profView pView = new profView();
         etudiantView eView = new etudiantView();
+        personneView allView = new personneView(pView, eView);
         Scanner sc = new Scanner(System.in);
         int choix;
 
